@@ -8,6 +8,9 @@
 #  include "config.h"
 #endif
 
+#define _GNU_SOURCE
+#include <dlfcn.h> // The header file that defines RTLD_DI_SERINFO
+
 #include "reloc.h"
 
 #include <ucm/util/khash_safe.h>
