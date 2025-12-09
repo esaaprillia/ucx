@@ -7,8 +7,6 @@
 #ifndef UCS_TYPE_FLOAT_H
 #define UCS_TYPE_FLOAT_H
 
-#include <ieee754.h>
-
 #include <ucs/sys/preprocessor.h>
 #include <ucs/debug/assert.h>
 #include <ucs/arch/bitops.h>
