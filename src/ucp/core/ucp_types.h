@@ -8,7 +8,6 @@
 #define UCP_TYPES_H_
 
 #include <ucp/api/ucp.h>
-#include <ucs/type/float8.h>
 #include <uct/api/uct.h>
 #include <ucs/datastruct/static_bitmap.h>
 #include <ucs/sys/preprocessor.h>
